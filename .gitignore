@@ -1,0 +1,10 @@
+# LaTeX: latexmk writes into build/. Auxiliaries stay out of git; the PDF is tracked.
+build/*
+!build/Main.pdf
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
